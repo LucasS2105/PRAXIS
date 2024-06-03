@@ -1,0 +1,110 @@
+about-section {
+    text-align: center;
+}
+
+.container-about {
+    background: url('/assets/img/skyscape.png') no-repeat center center;
+    background-size: cover;
+    width: 70%;
+    max-width: 80rem;
+    margin: 10rem auto;
+    padding: 8rem;
+}
+
+.container-about-skyscape {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+}
+
+.container-about-brain {
+    width: 20%;
+}
+
+.container-about-skyscape h1 {
+    text-align: center;
+    font-size: 2.4rem;
+    margin-right: 35%;
+    color: white;
+}
+
+.container-about-text {
+    padding: 2rem;
+    color: white;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+.container-about-simbol {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 2rem;
+}
+
+.container-about-simbol img {
+    width: 12%;
+}
+
+@media screen and (max-width: 1000px) {
+    .container-about {
+        width: 90%;
+        padding: 4rem;
+        margin: 5rem auto;
+    }
+
+    .container-about-brain {
+        width: 30%;
+    }
+
+    .container-about-skyscape h1 {
+        font-size: 2rem;
+        margin-right: 20%;
+    }
+
+    .container-about-text {
+        padding: 1.5rem;
+        font-size: 1rem;
+    }
+
+    .container-about-simbol img {
+        width: 20%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container-about {
+        width: 100%;
+        padding: 2rem;
+        margin: 2rem auto;
+    }
+
+    .container-about-skyscape {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container-about-brain {
+        width: 50%;
+        margin-bottom: 1rem;
+    }
+
+    .container-about-skyscape h1 {
+        font-size: 1.5rem;
+        margin: 0;
+        text-align: center;
+    }
+
+    .container-about-text {
+        padding: 1rem;
+        font-size: 0.9rem;
+    }
+
+    .container-about-simbol {
+        justify-content: center;
+    }
+
+    .container-about-simbol img {
+        width: 25%;
+    }
+}

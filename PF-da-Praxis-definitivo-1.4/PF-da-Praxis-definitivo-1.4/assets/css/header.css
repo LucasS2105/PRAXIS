@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+:root {
+    --primary-color: rgba(184, 149, 114, 1);
+    --secudary-color: #E0E0E2;
+}
+
+/* variaveis*/
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Html */
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+.menu img {
+    padding: 0.5rem 5rem;
+    width: 17rem;
+}
+
+.menu-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3rem;
+    position: fixed;
+    background-color: var(--primary-color);
+    top: 0;
+    width: 100vw;
+    z-index: 1;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+}
+
+/* efeito de botão em entre em contato*/
+
+
+.menu ul li a {
+    display: block;
+    padding: 2rem 2rem;
+    font-size: 1.2rem;
+    position: relative;
+    color: var(--secudary-color);
+}
+
+.menu ul li a::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 1.3rem;
+    height: 0.2rem;
+    width: 0;
+    background: #E0E0E2;
+    transition: all 300ms ease-in-out;
+}
+
+.menu ul li a:hover::after {
+    width: 53%;
+    left: 25%;
+}
+
+.menu ul li a:hover {
+    color: #6A8DD0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.inicie {
+    border: 0.1em solid #E0E0E2;
+    border-radius: 2em;
+}
+
+@media screen and (max-width: 1100px) {
+    .close-menu {
+        display: none;
+        z-index: 0;
+    }
+
+    .menu-spacing {
+        display: none;
+    }
+
+    .menu {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 1;
+        text-align: center;
+        display: none;
+    }
+
+    .menu img {
+        margin-bottom: 5rem;
+        width: 15rem;
+    }
+
+    .menu ul li a {
+        font-size: 2rem;
+    }
+
+    .menu-content, .menu-content ul {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .menu-content {
+        height: 100vh;
+    }
+
+    .close-menu-label::after {
+        content: '☰';
+        position: fixed;
+        z-index: 2;
+        top: 2rem;
+        right: 2rem;
+        color: #e7e0e0;
+        font-size: 3rem;
+        line-height: 3rem;
+        width: 3rem;
+        height: 3rem;
+        text-align: center;
+        padding: 0.5rem;
+        cursor: pointer;
+    }
+
+    .close-menu:checked~.menu {
+        display: block;
+
+    }
+
+    .close-menu:checked~.close-menu-label::after {
+        display: block;
+        content: 'X';
+    }
+
+    .close-menu-label {
+        background: none;
+    }
+}

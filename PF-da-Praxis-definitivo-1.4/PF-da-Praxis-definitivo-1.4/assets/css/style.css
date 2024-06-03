@@ -1,0 +1,423 @@
+.main-coments {
+    background-image: url("/assets/img/cadeira.png");
+    background-position: center;
+    background-size: cover;
+    padding: 6vw 4vw;
+    margin: 0;
+    width: 100%;
+}
+
+.container-kevin {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.text-my {
+    width: 90%;
+    max-width: 800px;
+    padding: 4vw;
+}
+
+.image-kevin {
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+    padding: 4vw;
+}
+
+.text-box {
+    width: 100vw;
+    max-width: 800px;
+    background: rgba(80, 114, 60, 0.8);
+    padding: 1.5vw;
+    border-radius: 1vw;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2vw;
+    text-align: center;
+}
+
+.image-kevin img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 2vw;
+}
+
+.reversed {
+    flex-direction: row-reverse;
+    padding-right: 10vw;
+    padding-left: 2vw;
+}
+
+.navbar-kevin {
+    font-family: "Roboto Serif", serif;
+    border-bottom: 4vw solid #E8E7E5;
+    padding: 4vw;
+    background-color: #B89572;
+    color: #FFFFFF;
+}
+
+.text-kevin {
+    text-align: center;
+    font-size: 2.5vw;
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 2vw;
+}
+
+.project, .local {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    padding: 0 2vw;
+}
+
+.project-box {
+    border: 1px solid #B89572;
+    border-radius: 3%;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    padding: 3vw;
+    padding-top: 0;
+    display: flex;
+    gap: 10vw;
+    align-items: center;
+
+}
+
+.project-box-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+    text-align: left;
+    margin-top: 3vh;
+    margin-left: 5vw;
+    gap: 7vh;
+}
+
+.h1-text {
+    margin-top: 2vh;
+    color: #B89572;
+    font-size: 2.5vw;
+    font-family: "Roboto Serif", serif;
+}
+
+.services {
+    color: #B89572;
+    font-size: 2vw;
+    line-height: 3vw;
+    margin-top: 2vh;
+}
+
+.services li {
+    font-family: "Roboto Serif", serif;
+    font-size: 1.5vw;
+    line-height: 2vw;
+    margin-left: 2vw;
+    padding-bottom: 1vh;
+}
+
+.project-box-content-button {
+    padding: 1.5vh 3vw;
+    width: 20vw;
+    font-size: 1.5vw;
+    border-radius: 2vw;
+    margin-top: 2vh;
+    background-color: #50723C;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    transition: all 300ms ease-in-out;
+}
+
+.project-box-content-button:hover {
+    padding: 1.5vh 3.5vw;
+    background-color: #6A8DD0;
+    color: black;
+}
+
+.project-box-img {
+    margin-top: 3vh;
+    margin-left: 0;
+}
+
+.project-box-img img {
+    width: 30vw;
+}
+
+.convenios {
+    border-bottom: 2rem solid #E8E7E5;
+    border-top: 2rem solid #E8E7E5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #B89572;
+    height: auto;
+    padding: 5rem 2rem 2rem 2rem;
+    
+}
+
+.convenios-imgs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.convenios-imgs img {
+    width: 15rem;
+    max-width: 100%;
+    margin: 1rem;
+}
+
+.convenios-title {
+    font-size: 3rem;
+    font-family: "Roboto Serif", serif;
+    font-weight: medium;
+    color: #FFFFFF;
+    margin-bottom: 2rem;
+}
+
+.local {
+    padding-top: 5rem;
+}
+
+.local-box {
+    margin-top: 2rem;
+
+    padding-top: 0;
+    display: flex;
+}
+
+.local-box-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.h1-local {
+    color: #B89572;
+    font-size: 3rem;
+    padding-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.local-image {
+    border-style: solid;
+    border-color: #50723C;
+    border-radius: 3%;
+    max-width: 100%;
+    height: auto;
+}
+
+.left {
+    margin-top: 5vh;
+}
+
+.h2-local {
+    font-size: 1.2rem;
+    margin-left: 0;
+    margin-top: 1rem;
+}
+
+.info-local {
+    border-style: solid;
+    background-color: #B89572;
+    border-color: #B89572;
+    border-radius: 3%;
+    padding: 2rem;
+    margin: 4rem 1rem 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.h1-local-info {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.h2-local-info {
+    font-size: 1.5rem;
+    margin-left: 0;
+    margin-top: 1rem;
+    line-height: 1.2;
+}
+
+.vacancies {
+    font-size: 1.5rem;
+    padding: 2%;
+}
+
+.info-local-button {
+    padding: 0.5rem 1.5rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-radius: 3rem;
+    margin-top: 2rem;
+    transition: all 300ms ease-in-out;
+}
+
+.info-local-button:hover {
+    padding: 0.8rem 1.8rem;
+    background-color: #6A8DD0;
+    color: black;
+}
+
+.social-media {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.social-media img {
+    width: 3rem;
+    height: auto;
+}
+
+@media only screen and (max-width: 738px) {
+
+    .container-kevin {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .text-box {
+        width: 100%;
+        padding: 1rem;
+        font-size: 4vw;
+    }
+
+    .text-kevin {
+        font-size: 1.5rem;
+    }
+
+
+    .project, .local {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0 1rem;
+        overflow-x: hidden;
+    }
+
+    .project-box {
+        border: none;
+        border-radius: 3%;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        padding: 3rem;
+        padding-top: 0rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project-box-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        margin-top: 3rem;
+    }
+
+    .h1-text {
+        margin-top: 2rem;
+        font-size: 2.5rem;
+    }
+
+    .services {
+        font-size: 2rem;
+        line-height: 3rem;
+        margin-top: 2rem;
+    }
+
+    .services li {
+        font-family: "Roboto Serif", serif;
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+        margin-left: 0;
+        padding-bottom: 1rem;
+    }
+
+    .project-box-content-button {
+        padding: 1.5rem 3rem;
+        width: 100%;
+        font-size: 1rem;
+        border-radius: 2rem;
+        margin-top: 2rem;
+    }
+
+    .project-box-img {
+        margin-top: 3rem;
+        margin-left: 0;
+    }
+
+    .project-box-img img {
+        display: none;
+    }
+
+    .convenios-imgs {
+        flex-direction: column;
+    }
+
+    .convenios-imgs img {
+        width: 100%;
+    }
+
+    .convenios-title {
+        font-size: 2rem;
+        text-align: center;
+        margin-bottom: 1rem;
+        width: 100%;
+    }
+
+    .local-box {
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .h1-local {
+        font-size: 2.5rem;
+    }
+
+    .h2-local {
+        font-size: 1rem;
+    }
+
+    .h1-local-info {
+        font-size: 1.5rem;
+    }
+
+    .h2-local-info {
+        font-size: 1.2rem;
+    }
+
+    .vacancies {
+        font-size: 1rem;
+    }
+
+    .info-local-button {
+        font-size: 1.2rem;
+    }
+
+    .social-media img {
+        width: 2.5rem;
+    }
+}

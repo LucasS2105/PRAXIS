@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/form.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="close menu" role="button">
+    <label class="close-menu-label" for="close-menu" tittle="close menu"></label>
+<header class="menu">
+    <div class="main-content menu-content">
+        <img src="/assets/img/logo.png" alt="Logo-Marca">
+
+        <nav> <!--Menu-Nav-->
+        <ul onclick="getElementById('close-menu').checked = false;">
+            <li class="efeit_menu"><a href="./index.html">ÍNICIO</a></li>
+            <!-- <li class="efeit_menu"><a href="#SOBRE">SOBRE NÓS</a></li>
+            <li class="efeit_menu"><a href="#PSICOTERAPIA">CONVÊNIOS</a></li>
+            <li class="efeit_menu"><a href="#PSICOTERAPIA">MENSAGENS</a></li>
+            <li class="efeit_menu"><a href="#PSICOTERAPIA">LOCAL</a></li>
+            <li class="inicie efeit_menu"><a href="#CONTATO">AGENDE UMA CONSULTA</a></li> -->
+        </ul>
+    </nav>
+</div>
+</header>
+    <div class="form-content">
+        <section class="form-content-notBroken">
+            <form id="form">
+                
+                    <label for="name">Nome Completo:</label>
+                    <input type="text" id="nome" name="name" placeholder=" Insira seu nome" required>
+                
+                
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" placeholder=" Insira seu email">
+                
+    
+                
+                    <label for="telefone">Telefone:</label>
+                    <input type="number" id="telefone" name="password" placeholder="Insira seu Telefone"  required>
+                
+    
+                <button type="submit">AGENDE SUA CONSULTA</button>
+            </form>
+    
+            <img src="/assets/img/img-form.png" alt="Doctor">
+        </section>
+    </div>
+    
+
+    <footer>
+        <section class="ordered-footer">
+            <div class="center">
+                <img class="logo-footer" src="./assets/img/logo.png" alt="logo" width="145px">
+            </div>
+
+            <div class="base-footer">
+                <p class="base-menu">MENU</p>
+                <br>
+                <a class="style-a" href="./index.html">INÍCIO</a>
+                <!-- <a class="style-a" href="">SOBRE NÓS</a>
+                <a class="style-a" href="">COLABORADORES</a>
+                <a class="style-a" href="">CONVÊNIOS</a>
+                <a class="style-a" href="">ARTIGOS</a>
+                <a class="style-a" href="">LOCAL</a> -->
+            </div>
+
+            <div class="center">
+                <p class="base-contact">ENTRE EM CONTATO</p>
+                <div class="ordered-content">
+                    <img class="icon-footer" src="/assets/pin-location.png" alt="">
+                    <div>
+                        <p>Av. Tancredo Neves, 2131 - Caminho das Árvores, Salvador - BA, 41820-021</p>
+                    </div>
+                </div>
+                <div class="ordered-content">
+                    <img class="icon-footer" src="/assets/pin-telephone.png" alt="">
+                    <div>
+                        <p>(71) 99999-9999 (Whatsapp)</p>
+                    </div>
+                </div>
+                <div class="ordered-content">
+                    <img class="icon-footer" src="/assets/pin-email.png" alt="">
+                    <div>
+                        <p>clinicapsi@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+            <div class="copyright">
+                <p>ESPAÇO PSI - Todos os direitos reservados.</p>
+            </div>
+    </footer>
+
+    <script src="/js/scriptForm.js"></script>
+</body>
+</html>
